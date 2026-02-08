@@ -18,7 +18,7 @@ struct cmpre{
 void solve(){
 	int n,k;
 	cin>>n>>k;
-	vector<C>c(n)
+	vector<C>c(n);
 	for(int i=0;i<n;i++)cin>>c[i].l>>c[i].r>>c[i].re;
 	sort(c.begin(),c.end(),cmpl);
 	priority_queue<C,vector<C>,cmpre>pq;
