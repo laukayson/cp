@@ -29,6 +29,5 @@ int main(){
 		cout<<ans<<'\n';
 		for(auto c:b)if(c.second)cout<<c.first<<' ';
 		cout<<'\n';
-		
 	}
 }
